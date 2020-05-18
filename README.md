@@ -1,5 +1,5 @@
 # Regression_Project
-Create a linear model regression to predict base salary for NYC employees
+Create a linear model regression to predict base salary for NYC City employees.
 
 ## Introduction
 Our data set contained 3,333,080 observations for the fiscal years of 2015-2019. We wanted to learn what factors contributed the most towards an employees base salary.
@@ -21,8 +21,8 @@ Used an alpha of .01 that had a slightly lower residual sum mean squared error. 
 
 <img src="_Images/Ridge_Model.png" width ="500">
 
-## Tools<br/>
+## Tools
 - Linear Regression
 
-**Data Sources:**
+**Data Sources:**<br/>
 NYC Open Data: [Citywide Payroll Data (Fiscal Year)](https://data.cityofnewyork.us/City-Government/Citywide-Payroll-Data-Fiscal-Year-/k397-673e)
