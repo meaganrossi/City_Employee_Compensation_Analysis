@@ -21,6 +21,10 @@ Used an alpha of .01 that had a slightly lower residual sum mean squared error. 
 
 <img src="_Images/Ridge_Model.png" width ="500">
 
+<img src="_Images/QQ.png" width ="500">
+
+<img src="_Images/Model_Selection.png" width ="500">
+
 ## Tools
 - Linear Regression
 
