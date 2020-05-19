@@ -16,7 +16,7 @@ Columns that were irrelevant to predicting base salary, overly correlated or con
 - Title Description
 - Regular Gross Paid
 - Total Other Pay
-- Pay Basis (kepy FT only)
+- Pay Basis (kept FT only)
 - Staten Island (no data) 
 
 ## Exploratory Data Analysis
