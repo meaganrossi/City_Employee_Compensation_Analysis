@@ -38,12 +38,13 @@ The **Years Worked** column is an engineered feature which calculates total year
 
 The continuous variables were scaled through normalizing. Potential linear relationships between normalized variables and base salary were evaluated. The base salary was then logged so as to make the model more linear. The data was divided into a test and train to create Ridge, Lasso and Linear Regression models. After comparing the Residual Sum Mean Squared Errors (RMSE), the Ridge Model performed sightly better than the Linear Regression Model. Finally we did a **K-Fold** test to determine the best alpha.
 
-<img src="_Images/Predictions.png" width ="500">
+
+<img src="_Images/Model_Selection.png" width ="500">
 
 ## Model Selection
 The best performing model, or the Ridge Model, predicted the test data within .634 standard deviations. An alpha of .01 was used, which had a slightly lower RMSE. 
 
-<img src="_Images/Ridge_Model.png" width ="500">
+<img src="_Images/Predictions.png" width ="500">
 
 ## Tools
 - Linear Regression
