@@ -1,13 +1,13 @@
 # Linear Regression Project
-Created three regression models to predict base salary for NYC City employees.
+Created three models to predict which variables have the most significant impacy on base salary for NYC City employees.
 
 ## Overview
-The NYC Open Data source contains 3,333,080 individual salary observations (one listing per employee, per year) for the fiscal years of 2015-2019. Using this data, we wanted to learn which factors contributed most significantly towards employee base salary.
+NYC Open Data contains a Citywide Payroll Data (Fiscal Year) dataset with 3,333,080 individual salary observations (one listing per employee, per year) for the fiscal years of 2015-2019. Using this data, we evaluate which factors contributed most significantly towards employee base salary.
 
 <img src="_Images/QQ.png" width ="500">
 
 ## Data Cleaning
-Columns that were irrelevant to predicting base salary, overly correlated or containted a high level of variability were dropped from the dataset.
+Columns that were irrelevant to predicting base salary, overly correlated with base salary or containted a high level of variability were dropped from the dataset.
 - Last Name
 - First Name
 - Mid Init
@@ -17,14 +17,14 @@ Columns that were irrelevant to predicting base salary, overly correlated or con
 - Regular Gross Paid
 - Total Other Pay
 - Pay Basis (kept FT only)
-- Staten Island (no data) 
+- Borough: Staten Island (no data) 
 
 ## Exploratory Data Analysis
-Over the past 5 years, the average city employee salary has increased by approximately $10,000
+Over the past 5 years, the average city employee salary has increased by approximately $10,000.
 
 <img src="_Images/10k_Increase.png" width ="500">
 
-The borough where an employee works also has an impact on mean base salary.
+The borough where an employee works has an impact on mean base salary.
 
 Borough | Average Salary 2015-2019
 ------------ | -------------
