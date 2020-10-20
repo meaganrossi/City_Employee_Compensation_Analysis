@@ -1,5 +1,5 @@
 # Linear Regression Project
-Created three models to predict which variables have the most significant impacy on base salary for NYC City employees.
+Created three models to predict which variables have the most significant impact on base salary for NYC City employees.
 
 ## Overview
 NYC Open Data contains a Citywide Payroll Data (Fiscal Year) dataset with 3,333,080 individual salary observations (one listing per employee, per year) for the fiscal years of 2015-2019. Using this data, we evaluate which factors contributed most significantly towards employee base salary.
@@ -7,7 +7,7 @@ NYC Open Data contains a Citywide Payroll Data (Fiscal Year) dataset with 3,333,
 <img src="_Images/QQ.png" width ="500">
 
 ## Data Cleaning
-Columns that were irrelevant to predicting base salary, overly correlated with base salary or containted a high level of variability were dropped from the dataset.
+Columns that were irrelevant to predicting base salary, overly correlated with base salary or contained a high level of variability were dropped from the dataset.
 - Last Name
 - First Name
 - Mid Init
